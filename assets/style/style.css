@@ -1,0 +1,44 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+.pg {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+
+.center {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	color: lightgrey;
+	background-color: lightgrey;
+	text-align: center;
+	width: 1000px;
+
+}
+
+img {
+	float: left;
+}
+
+li {
+	line-height: 40px;
+}
+
+ul {
+	line-height: 10px;
+}
