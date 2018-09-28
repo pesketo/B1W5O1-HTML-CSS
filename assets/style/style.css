@@ -37,11 +37,27 @@ ul {
 	line-height: 10px;
 }
 
+
 .tip {
   background-color: #def6ed;
   border-radius: 4px;
   padding: 10px;
-  margin: 25px;
+  margin: 20px 0;
+}
+
+.footer {
+	display: block;
+	background-color: #def6ed;
+	border-radius: 4px;
+	line-height: 25px;
+	border: 20px;
+	padding: 20px;
+	margin: 25px;
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	text-align: center;
 }
 
 
@@ -57,14 +73,3 @@ ul {
     font-size: 16px;
 }
 
-a {
-	background-color: darkblue;
-   	border-color: red;
-    border-radius: 25px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-   	text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
