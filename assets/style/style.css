@@ -4,14 +4,14 @@ body {
 	line-height: 26px;
 }
 
-.pg {
-	font-size: 24px;
-	line-height: 32px;
-}
-
 h1 {
 	font-size: 36px;
 	line-height: 36px;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 32px;
 }
 
 .center {
@@ -26,17 +26,15 @@ hr {
 	background-color: lightgrey;
 	text-align: center;
 	width: 100%;
-
 }
 
-li {
-	line-height: 40px;
+ol {
+	line-height: 20px;
 }
 
 ul {
-	line-height: 10px;
+	line-height: 40px;
 }
-
 
 .tip {
   background-color: #def6ed;
@@ -45,31 +43,26 @@ ul {
   margin: 20px 0;
 }
 
-.footer {
-	display: block;
-	background-color: #def6ed;
-	border-radius: 4px;
-	line-height: 25px;
-	border: 20px;
-	padding: 20px;
-	margin: 25px;
-	position: fixed;
-   	left: 0;
-   	bottom: 0;
-   	width: 100%;
-   	text-align: center;
+.recepten {
+	width: 800px;
+	height: 600px;
 }
 
-
 .button {
-   	background-color: darkblue;
-   	border: none;
-    border-radius: 25px;
+	background-color: #008080;
+    border: dashed 2px white;
     color: white;
     padding: 15px 32px;
     text-align: center;
-   	text-decoration: none;
+    text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.p1 {
+	font-size: 24px;
+	line-height: 32px;
 }
 
